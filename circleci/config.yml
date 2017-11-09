@@ -6,6 +6,7 @@ version: 2
 dependencies:
   override:
      - chmod +x gradlew
+    - ./gradlew dependencies
 jobs:
   build:
     docker:
